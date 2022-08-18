@@ -1,0 +1,29 @@
+[33mcommit c43e49c0b250007af1af7a1ae5338fb4443bf97e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Francisken03 <franciskenken.ventura@gmail.com>
+Date:   Thu Aug 18 23:10:55 2022 +0800
+
+    STEP4: Add comment TODO: Add link to dog photos
+
+[33mcommit 50307215c6108d2c9be2f7000a0819711a4a748c[m
+Author: Francisken03 <franciskenken.ventura@gmail.com>
+Date:   Thu Aug 18 23:09:03 2022 +0800
+
+    STEP3: Add p element with text Click here to view more dog photos! and center align using in-line style command
+
+[33mcommit 24fc66cb4454b5ca4d0a8af8d5af02897f18e0ba[m
+Author: Francisken03 <franciskenken.ventura@gmail.com>
+Date:   Thu Aug 18 22:57:48 2022 +0800
+
+    STEP2: Add h2 with Dog Photos text
+
+[33mcommit 086ab846ae7d48f6aecaa720ea37971b5b61ca95[m
+Author: Francisken03 <franciskenken.ventura@gmail.com>
+Date:   Thu Aug 18 22:41:39 2022 +0800
+
+    STEP1: Change h1 to DOG PHOTO APP
+
+[33mcommit a336ef2069a8c255550f53a393aee419930bd719[m
+Author: Francisken03 <franciskenken.ventura@gmail.com>
+Date:   Thu Aug 18 22:38:20 2022 +0800
+
+    first commit
