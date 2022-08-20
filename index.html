@@ -63,8 +63,11 @@
 
                 <h2>DOG FORM</h2>
                 <form action="https://freecatphotoapp.com/submit-cat-photo">
-                    <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor">Indoor</label>
-                    <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">Outdoor</label>
+                    <fieldset>
+                        <Legend>Is your doog indoor or outdoor dog?</Legend>
+                        <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor">Indoor</label>
+                        <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">Outdoor</label>
+                    </fieldset>
                     <input type="text" placeholder="Dog photo URL" name="DogPhotoUrl" required>
                     <button type="submit">Submit</button>
                 </form>
