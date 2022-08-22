@@ -6,36 +6,46 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>INTRODUCTION TO HTML</title>
-                   
-    </head>
 
-    <body>
         <style>
             body {
-            text-align: center;}
-
+                text-align: center;
+            }
+    
             ul {
-            display: table;
-            margin: 0 auto;}
-
+                display: table;
+                margin: 0 auto;
+            }
+    
             ol {
-            display: table;
-            margin: 0 auto;}
-            
+                display: table;
+                margin: 0 auto;
+            }
+    
+            img {
+                width: 400px;
+                height: 400px;
+            }
+    
         </style>
-            
+
+    </head>
+
+
+    <body>
+        <!--Center Align Whole Website-->
+
         <h1>DOG PHOTO APP</h1>
         <main>
             <!--SECTION1-->
             <section>
 
                 <h2>DOG PHOTOS</h2>
-                <!--TODO: Add link to dog photos-->
-                <!--Indent p element 2 spaces-->
-                <p style="text-align: ;center">Be a dog foster parent <a
+
+
+                <p>Be a dog foster parent <a
                         href="https://paws.org.ph/adopt/ghostbuster-puppies/" target="_blank"> Go to PAWS PH </a></p>
-                <a href="https://paws.org.ph/adopt/barbie/" target="_blank"><img src="Images/Barbie-1.jpg" width="300px"
-                        height="300px" alt="A dog smiling in front of the camera"> </a>
+                <a href="https://paws.org.ph/adopt/barbie/" target="_blank"><img src="Images/Barbie-1.jpg" alt="A dog smiling in front of the camera"> </a>
 
             </section>
             <!--SECTION2-->
@@ -51,7 +61,7 @@
                 </ul>
 
                 <figure>
-                <img src="Images/pexels-photo-315755.jpeg" alt="A picture of pizza" width="300px" height="300px">
+                    <img src="Images/pexels-photo-315755.jpeg" alt="A picture of pizza">
                     <figcaption>My dogs <em>love</em> pizza</figcaption>
                 </figure>
 
@@ -65,11 +75,11 @@
 
                 <figure>
 
-                    <img src="Images/Delro.jpg" alt="Another dog photo" width="300px" height="300px">
+                    <img src="Images/Delro.jpg" alt="Another dog photo">
                     <figcaption>Dogs <strong>hate</strong> other dogs</figcaption>
 
                 </figure>
-    
+
 
             </section>
 
@@ -80,14 +90,17 @@
                 <form action="https://francisken03.github.io/Thank-You-Page/">
                     <fieldset>
                         <Legend>Is your doog indoor or outdoor dog?</Legend>
-                        <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked>Indoor</label>
+                        <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"
+                                checked>Indoor</label>
                         <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">Outdoor</label>
                     </fieldset>
                     <fieldset>
                         <legend>What is your dog's personality?</legend>
-                        <input type="checkbox" id="loving" value="loving" name="personality" checked><label for="loving">Loving</label>
+                        <input type="checkbox" id="loving" value="loving" name="personality" checked><label
+                            for="loving">Loving</label>
                         <input type="checkbox" id="lazy" value="lazy" name="personality"><label for="lazy">Lazy</label>
-                        <input id="energetic" value="energetic" type="checkbox" name="personality"> <label for="energetic"> Energetic</label>
+                        <input id="energetic" value="energetic" type="checkbox" name="personality"> <label
+                            for="energetic"> Energetic</label>
                     </fieldset>
                     <input type="text" placeholder="Dog photo URL" name="DogPhotoUrl" required>
                     <button type="submit">Submit</button>
@@ -103,8 +116,8 @@
 
             <p>No Copyright. Inspired by <a href="freecodecamp.org">FreeCodeCamp Cat Photo App</a></p>
 
-         </footer>
-    
+        </footer>
+
     </body>
 
 </html>
